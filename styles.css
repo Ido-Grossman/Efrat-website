@@ -1,17 +1,9 @@
 body {
-    /* Makes the page scrollable */
     font-family: Arial, sans-serif;
     transition: background-color 0.3s ease;
-    /* Smooth transition for the color change */
-    background: #407781;
+    background:linear-gradient(to bottom, #407781, #14373d);
     font-family: "Inknut Antiqua";
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height: 1000vh;
-}
-
-.first-header {
-    height: 50vh;
+    overflow-x: hidden !important;
 }
 
 .main-header {
@@ -32,90 +24,71 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    /* 39.2px */
 }
 
 .center-items {
     text-align: center;
 }
 
-/* .circle {
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    filter: blur(90px);
-}
-
-.circle-left {
-    background: radial-gradient(circle, rgba(155, 238, 250, 1), rgba(155, 238, 250, 0));
-} */
-
-
-.first-scroll {
-    position: relative;
-    height: 200vh;
-    /* Set a height for scrolling */
-    width: 100%;
-    /* Prevent horizontal scrolling if needed */
-}
-
 .tree {
-    position: sticky;
-    top: 0;
-    width: 100vw;
-    z-index: 1;
-}
-
-.tree-1 {
     position: absolute;
-    top: 15vh;
-    width: 1027px;
-    height: auto;
-    right: -10%;
-
+    transition: transform 1s ease; 
+    transform-origin: center; 
 }
 
-.tree-2 {
-    position: absolute;
-    top: -10vh;
-    left: -8%;
-    width: 1200px;
-    height: auto;
 
+#tree-1 {
+    right: -100px;
+    width: 1000px;
+    height: 1000px;
+    top: 10px;
 }
 
-.tree-3 {
-    position: absolute;
-    top: 20vh;
-    right: -7%;
-    width: 800px;
-    height: auto;
-    margin-top: 400px;
+#tree-2 {
+    left: -50px;
+    width: 1000px;
+    height: 1000px;
+    top: 10px;
 }
 
-.tree-4 {
-    position: absolute;
-    top: 15vh;
-    left: -5%;
-    width: 750px;
-    height: auto;
-    margin-top: 500px;
+#tree-3 {
+    right: -100px;
+    width: 600px;
+    height: 600px;
+    top: 400px;
 }
+
+#tree-4 {
+    left: -50px;
+    width: 600px;
+    height: 600px;
+    top: 400px;
+}
+
 
 .when-may {
     color: #F7F1E3;
     font-family: "Inknut Antiqua";
     font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 140%;
-    position: absolute;
-    width: 100%;
-    top: 70vh;
-    /* Aligns the element horizontally in the middle of the parent */
-    z-index: 0;
+    position: relative;
 }
 
-.when-may-text {
-    position: absolute;
-    left: 43%;
+.section {
+    min-height: 80vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+}
+
+#section2 {
+    position: relative;
 }
