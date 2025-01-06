@@ -5,40 +5,49 @@
   <meta charset="utf-8">
   <link rel="stylesheet" media="all" href="styles.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Florette</title>
+  <title>Brownie</title>
 </head>
 
 <body>
-
-  <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.0.0/dist/locomotive-scroll.min.js"></script>
-  <div class="center-items first-header">
-    <h1 class="main-header">FLORETTE</h1>
-    <span class="by-anna">By Anna Walker</span>
-  </div>
-  <div class="circle circle-left"></div>
-  <div class="first-scroll">
-    <div class="tree">
-      <img src="images/פתיח עץ 1.png" class="tree-1" />
+  <div class="sections">
+    <div class="section" id="section1">
+      <div class="center-items">
+        <h1 class="main-header">FLORETTE</h1>
+        <span class="by-anna">By Anna Walker</span>
+      </div>
     </div>
-    <div class="tree">
-      <img src="images/פתיח עץ 2.png" class="tree-2" />
-    </div>
-    <div class="tree">
-      <img src="images/תיקון עץ פתיח 3.png" class="tree-3" />
-    </div>
-    <div class="tree">
-      <img src="images/תיקון עץ 4 פתיח.png" class="tree-4" />
-    </div>
-
-    <div class="when-may center-items">
-      <div class="when-may-text">
+    <div class="section" id="section2">
+      <div class="when-may center-items">
         When May's family moved to the city,<br />
         May wanted to bring her garden with her.
       </div>
+      <div class="circle circle-left"></div>
+      <img src="images/פתיח עץ 1.png" id="tree-1" class="tree" />
+      <img src="images/תיקון עץ פתיח 3.png" id="tree-3" class="tree" />
+      <img src="images/פתיח עץ 2.png" id="tree-2" class="tree" />
+      <img src="images/תיקון עץ 4 פתיח.png" id="tree-4" class="tree" />
+    </div>
+    <div class="section" id="section-3">
+
+
+      <img src="images/בניינים חלוקה ראשונה 4.png" id="building-4" class="buildings-1">
+      <img src="images/בניינים חלוקה ראשונה 3.png" id="building-3" class="buildings-1">
+      <img src="images/בניינים חלוקה ראשונה 2.png" id="building-2" class="buildings-1">
+
+      <img src="images/בניינים חלוקה ראשונה 1.png" id="building-1" class="buildings-1">
+      <img src="images/בניינים חלוקה שנייה 1.png" id="building-5" class="buildings-2">
+      <img src="images/בניינים חלוקה שנייה 3.png" id="building-7" class="buildings-2">
+      <img src="images/בניינים חלוקה שנייה 2.png" id="building-6" class="buildings-2">
     </div>
   </div>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+
+  <script src="./script.js">
+
+  </script>
 
 </body>
 
