@@ -31,6 +31,10 @@ body {
     margin-top: 0px;
 }
 
+.absolute-pos {
+    position: absolute;
+}
+
 .by-anna {
     color: #F7F1E3;
     font-family: "Inknut Antiqua";
@@ -86,9 +90,8 @@ body {
 .section {
     min-height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
+    align-items: start;
 }
 
 .sections {
@@ -96,56 +99,141 @@ body {
     flex-direction: column;
 }
 
+.justify-align-center {
+    align-items: center;
+    justify-content: center;
+}
 
 #section-3 {
     justify-content: flex-end;
 }
 
 #building-1 {
-    margin-top: 30%;
-    margin-right: 27%;
+    margin-top: 10%;
+    margin-right: 25%;
 }
 
 #building-2 {
-    margin-top: 50%;
+    margin-top: 30%;
     margin-right: 9%;
 }
 
 #building-3 {
-    margin-top: 43%;
+    margin-top: 23%;
     margin-right: 15%;
 }
 
 #building-4 {
-    margin-top: 22%;
+    margin-top: 2%;
     margin-right: 12%;
 }
 
 #building-5 {
-    margin-right: 40%;
+    margin-right: 38%;
 }
 
 #building-6 {
-    margin-top: 12%;
-    margin-right: 46%;
+    margin-top: 14%;
+    margin-right: 43.5%;
 }
 
 #building-7 {
-    margin-right: 47%;
+    margin-top: 3%;
+    margin-right: 45%;
 }
 
 #building-8 {}
 
 .buildings-1 {
-    width: 10%;
+    width: 9%;
     height: auto;
     position: absolute;
-    transform-origin: center;
 }
 
 .buildings-2 {
     width: 5%;
     height: auto;
     position: absolute;
-    transform-origin: center;
+}
+
+.her-mother {
+    color: #ffffff;
+    margin-top: 25%;
+    margin-right: 62%;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.box-open-1 {
+    width: 12%;
+    margin-left: 15%;
+    margin-top: 7%;
+}
+
+.box-close-1 {
+    width: 11%;
+    margin-left: 8%;
+    margin-top: 4%;
+
+}
+
+.clickable-box-1 {
+    width: 7%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.box-close-2 {
+    width: 20%;
+    margin-left: 1%;
+    margin-top: 17%;
+
+}
+
+.clickable-box-2 {
+    width: 10%;
+    margin-left: 18%;
+    margin-top: 25%;
+    cursor: pointer;
+}
+
+.clickable-box-3 {
+    width: 15%;
+    margin-left: 75%;
+    margin-top: 22%;
+    cursor: pointer;
+}
+
+.clickable-box-4 {
+    width: 9%;
+    margin-left: 90%;
+    margin-top: 12%;
+    cursor: pointer;
+}
+
+.clickable-box-5 {
+    width: 8%;
+    margin-left: 82%;
+    margin-top: 2.5%;
+    cursor: pointer;
+}
+
+.box-close-3 {
+    width: 13%;
+    margin-left: 82%;
+    margin-top: 6%;
+}
+
+.box-open-2 {
+    width: 12%;
+    margin-left: 76%;
+    margin-top: 10%;
+}
+
+.instead-of {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 10%;
+    margin-left: 40%;
 }
