@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     transition: background-color 0.3s ease;
-    background: linear-gradient(to bottom, #5895a0, #407781);
+    background: linear-gradient(to bottom, #407781, #407781);
     font-family: "Inknut Antiqua";
     overflow-x: hidden !important;
     height: 1000vh;
@@ -80,7 +80,7 @@ body {
 .when-may {
     color: #F7F1E3;
     font-family: "Inknut Antiqua";
-    font-size: 20px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
@@ -160,7 +160,7 @@ body {
     color: #ffffff;
     margin-top: 25%;
     margin-right: 62%;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px;
 }
 
@@ -177,7 +177,7 @@ body {
 
 }
 
-.clickable-box-1 {
+#clickable-box-1 {
     width: 7%;
     margin-left: 10%;
     cursor: pointer;
@@ -190,28 +190,28 @@ body {
 
 }
 
-.clickable-box-2 {
+#clickable-box-2 {
     width: 10%;
     margin-left: 18%;
     margin-top: 25%;
     cursor: pointer;
 }
 
-.clickable-box-3 {
+#clickable-box-3 {
     width: 15%;
     margin-left: 75%;
     margin-top: 22%;
     cursor: pointer;
 }
 
-.clickable-box-4 {
+#clickable-box-4 {
     width: 9%;
     margin-left: 90%;
     margin-top: 12%;
     cursor: pointer;
 }
 
-.clickable-box-5 {
+#clickable-box-5 {
     width: 8%;
     margin-left: 82%;
     margin-top: 2.5%;
@@ -232,8 +232,12 @@ body {
 
 .instead-of {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px;
     margin-top: 10%;
     margin-left: 40%;
+}
+
+#section-4 {
+    margin-top: 10%;
 }
