@@ -1,10 +1,17 @@
+@font-face {
+    font-family: 'Sentinel';
+    src: url('Font/Sentinel-Book-iF6618f54f8ce4b.otf') format('woff');
+    /* Adjust path */
+    src: url('Font/Sentinel-Book-iF6618f54f8ce4b.otf') format('woff2');
+    /* Adjust path */
+}
+
 body {
-    font-family: Arial, sans-serif;
+
     transition: background-color 0.3s ease;
     background: linear-gradient(to bottom, #407781, #407781);
-    font-family: "Inknut Antiqua";
+    font-family: "Sentinel";
     overflow-x: hidden !important;
-    height: 1000vh;
 }
 
 ::-webkit-scrollbar {
@@ -37,7 +44,6 @@ body {
 
 .by-anna {
     color: #F7F1E3;
-    font-family: "Inknut Antiqua";
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
@@ -79,7 +85,6 @@ body {
 
 .when-may {
     color: #F7F1E3;
-    font-family: "Inknut Antiqua";
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -142,8 +147,6 @@ body {
     margin-right: 45%;
 }
 
-#building-8 {}
-
 .buildings-1 {
     width: 9%;
     height: auto;
@@ -177,7 +180,7 @@ body {
 
 }
 
-#clickable-box-1 {
+.clickable-box-1 {
     width: 7%;
     margin-left: 10%;
     cursor: pointer;
@@ -190,28 +193,28 @@ body {
 
 }
 
-#clickable-box-2 {
+.clickable-box-2 {
     width: 10%;
     margin-left: 18%;
     margin-top: 25%;
     cursor: pointer;
 }
 
-#clickable-box-3 {
+.clickable-box-3 {
     width: 15%;
     margin-left: 75%;
     margin-top: 22%;
     cursor: pointer;
 }
 
-#clickable-box-4 {
+.clickable-box-4 {
     width: 9%;
     margin-left: 90%;
     margin-top: 12%;
     cursor: pointer;
 }
 
-#clickable-box-5 {
+.clickable-box-5 {
     width: 8%;
     margin-left: 82%;
     margin-top: 2.5%;
@@ -240,4 +243,477 @@ body {
 
 #section-4 {
     margin-top: 10%;
+}
+
+.butterflies {
+    position: absolute;
+    width: 60%;
+    margin-left: -100%;
+    margin-top: 20%;
+}
+
+#butterfly-1 {
+    /* margin-left: -84%;
+    margin-top: 20%; */
+}
+
+#butterfly-2 {
+    width: 8%;
+    margin-left: -77%;
+    margin-top: 8%;
+}
+
+#butterfly-3 {
+    margin-left: -70%;
+    margin-top: 20%;
+}
+
+#butterfly-4 {
+    width: 6%;
+    margin-left: -64%;
+    margin-top: 10%;
+}
+
+#butterfly-5 {
+    margin-left: -57%;
+    margin-top: 20%;
+}
+
+#butterfly-6 {
+    margin-left: -50%;
+    margin-top: 10%;
+}
+
+#she-longed {
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+.white-text {
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 30px;
+
+}
+
+#boxStack {
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+.boxStack-1 {
+    width: 15%;
+
+}
+
+.boxStack-2 {
+    width: 15%;
+
+}
+
+.boxStack-3 {
+    width: 16.2%;
+}
+
+.boxStack-4 {
+    width: 18.1%;
+    margin-left: 19.1% !important;
+}
+
+#section-6-text {
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+#section-7 {
+    background: linear-gradient(to bottom, #407781, #73ACA1) !important;
+}
+
+#section-8 {
+    background: linear-gradient(to bottom, #407781, #73ACA1) !important;
+}
+
+#section-9 {
+    background: linear-gradient(to bottom, #407781, #73ACA1) !important;
+}
+
+#section-10 {
+    background: #73ACA1 !important;
+    z-index: 0;
+    left: -1%;
+    width: 100vw;
+}
+
+#section-11 {
+    background: linear-gradient(to top, #407781, #73ACA1) !important;
+    z-index: 0;
+    left: -1%;
+    width: 100vw;
+}
+
+.horizontal-sections {
+    width: 300vw;
+}
+
+.horizontal-sections-2 {
+    width: 300vw;
+}
+
+.wrapper-1 {
+    width: 300%;
+    height: 100vh;
+    z-index: 2;
+}
+
+.wrapper-2 {
+    width: 300%;
+    height: 100vh;
+}
+
+.horizontal-section {
+    width: 100vw;
+    height: 100vh;
+    float: left;
+}
+
+.horizontal-section2 {
+    width: 100vw;
+    height: 100vh;
+    float: left;
+}
+
+#bird {
+    width: 2%;
+    margin-top: 3%;
+    margin-left: 8%;
+    z-index: 100000000;
+}
+
+#path-1 {
+    width: 15%;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+#path-2 {
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 53%;
+}
+
+#path-3 {
+    width: 30%;
+    margin-left: 50%;
+    margin-top: -22%;
+}
+
+#beyond-them {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+#path-4 {
+    width: 20%;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+#she-turned {
+    margin-top: 3%;
+    margin-left: 38%;
+}
+
+#path-5 {
+    width: 15%;
+    margin-left: 70%;
+    margin-top: 10%;
+}
+
+#second-path-buildings {
+    width: 25%;
+    margin-left: 5%;
+    margin-top: -10%;
+}
+
+#between-the {
+    margin-left: 40%;
+    margin-top: -5%;
+}
+
+#second-path-7 {
+    width: 12%;
+    margin-left: 75%;
+    margin-top: 5%;
+}
+
+#second-path-6 {
+    width: 10%;
+    margin-left: 70%;
+    margin-top: -2%;
+}
+
+#second-path-8 {
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 10%;
+    z-index: 0;
+}
+
+#and-under {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 30%;
+}
+
+#third-path-1 {
+    position: absolute;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#third-path-2 {
+    width: 80%;
+    margin-left: 55%;
+}
+
+#until-she {
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 13%;
+}
+
+#a-park-filled {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 50%;
+}
+
+#third-path-3 {
+    width: 35%;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+#bird-2 {
+    width: 1.5%;
+    margin-top: 3%;
+    margin-left: 30%;
+}
+
+.last-section {
+    height: 2000vh;
+    position: relative;
+    z-index: 1;
+}
+
+
+#last-section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.changing-text {
+    position: absolute;
+    left: 42%;
+}
+
+.final-text {
+    color: #1B0042;
+    font-size: 36px;
+}
+
+.half-section {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.finish {
+    position: absolute
+}
+
+#first-text {
+    position: absolute;
+    top: 50vh;
+}
+
+#second-text {
+    position: absolute;
+    top: 200vh;
+}
+
+#third-text {
+    position: absolute;
+    top: 350vh;
+}
+
+#fourth-text {
+    position: absolute;
+    top: 500vh;
+}
+
+#fifth-text {
+    position: absolute;
+    top: 650vh;
+}
+
+#sixth-text {
+    position: absolute;
+    top: 800vh;
+}
+
+#seventh-text {
+    position: absolute;
+    top: 950vh;
+}
+
+#eighth-text {
+    position: absolute;
+    top: 1100vh;
+}
+
+#ninth-text {
+    position: absolute;
+    top: 1250vh;
+}
+
+#tenth-text {
+    position: absolute;
+    top: 1400vh;
+}
+
+#eleventh-text {
+    position: absolute;
+    top: 1550vh;
+}
+
+#twleveth-text {
+    position: absolute;
+    top: 1700vh;
+}
+
+#thirteenth-text {
+    position: absolute;
+    top: 1850vh;
+}
+
+#fourteenth-text {
+    position: absolute;
+    top: 2050vh;
+    font-size: 3rem;
+}
+
+#finish1 {
+    width: 13%;
+    margin-top: 20%;
+    margin-left: 19%;
+}
+
+#finish2 {
+    width: 14%;
+    margin-top: 30%;
+    margin-left: 75%;
+}
+
+#finish3 {
+    width: 17%;
+    margin-top: 27%;
+    margin-left: 4%;
+}
+
+#finish4 {
+    width: 19%;
+    margin-top: 15%;
+    margin-left: 78%;
+}
+
+#finish5 {
+    width: 16%;
+    margin-top: 40%;
+    margin-left: 87%;
+}
+
+#finish6 {
+    width: 22%;
+    margin-top: 9%;
+    z-index: -1;
+}
+
+#finish7 {
+    width: 14%;
+    margin-top: 6%;
+    margin-left: 85%;
+    z-index: -1;
+}
+
+#finish8 {
+    width: 24%;
+    margin-top: 46%;
+}
+
+#finish9 {
+    width: 15%;
+    margin-top: 35%;
+    margin-left: 14%;
+    z-index: -1;
+}
+
+#finish10 {
+    width: 17%;
+    margin-top: 22%;
+    margin-left: 90%;
+    z-index: -1;
+}
+
+#finish11 {
+    width: 19%;
+    margin-top: 47%;
+    margin-left: 63%;
+}
+
+#finish12 {
+    width: 10%;
+    margin-top: 4%;
+    margin-left: 13%;
+    z-index: -2;
+}
+
+#finish13 {
+    width: 5%;
+    margin-left: 77%;
+    margin-top: 8%;
+}
+
+#finish14 {
+    width: 4%;
+    margin-top: 11%;
+    margin-left: 24%;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: var(--1, linear-gradient(180deg, #86E0BC 0%, #2E9E71 100%));
+    border: 1px solid;
+
+    /* Green color */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    display: none;
+    /* Initially hidden */
+    z-index: 1000;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#back-to-top:hover {
+    /* Slightly darker green */
+    transform: scale(1.1);
+    /* Add a hover effect */
 }
